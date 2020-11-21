@@ -21,3 +21,17 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.main {
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.register-head {
+    text-align: center;
+    color: rgb(218, 208, 194);
+}
+
+.form-control {
+    margin-top: 40px;
+}
