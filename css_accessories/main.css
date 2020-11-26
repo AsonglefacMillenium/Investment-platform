@@ -10,15 +10,22 @@
             padding-right: 20px;
         }
         
-        .form-inline ul li a {
+        .form-inline a {
             color: rgb(112, 106, 106);
             font-size: 10px;
+        }
+        
+        .form-inline a:hover {
+            transition: ease-out;
+            text-decoration: none;
+            animation: ease-in;
+            transform: scaleX(2);
         }
         
         .lander {
             background-image: url("../images/images1.png");
             height: 500px;
-            background-repeat: inherit;
+            background-size: cover;
         }
         
         .lander-content {
